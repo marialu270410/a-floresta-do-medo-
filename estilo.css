@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+
 body{
     background-color: black;
     color:white;
+    font-family: "BBH Sans Bartle", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 0;
+    font-size: 18px;
 }
+button{
+    background-color: antiquewhite;
+    color: bisque;
+    padding: 20px;
+}
+main{
+    background-color: aliceblue;
+    max-width: 90%;
+}
+.img01{
+    width: 75%;
+}
+.passo
