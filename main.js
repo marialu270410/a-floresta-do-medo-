@@ -3,10 +3,10 @@ console.log(avanca)
 
 avanca.forEach(button => {
     button.addEventListener( 'click',function (){
-    const atual =document.querySelector ('.ativo')
+    const atual = document.querySelector ('.ativo')
     const proximoPasso = 'passo-'+ this.getAttribute('data-proximo')    
+    atual.classlist.romeve('ativo')
+    document.getElementById(proximoPasso).classlist.add('ativo')
 })
 
-atual.classlist.romeve('ativo')
-document.getElementById(proximoPasso).classlist.add('ativo')
 })
